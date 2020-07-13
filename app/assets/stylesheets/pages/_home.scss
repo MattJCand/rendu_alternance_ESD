@@ -1,1 +1,11 @@
 // Specific CSS for your home-page
+body, html {
+  height: 100%;
+  // overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+// Specific CSS for your home-page

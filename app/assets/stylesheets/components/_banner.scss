@@ -1,0 +1,51 @@
+.banner {
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  // padding: 150px 0;
+  height: 100%;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-article {
+  background-size: cover;
+  color: white;
+  padding: 250px 0;
+}
+
+.banner-article > container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+.container h2{
+  color: white;
+  text-align: center;
+  font-size: 40px; 
+}
+
+.container-article{
+  width: 700px;
+  margin: 50px auto;
+  color: #292929;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora'
+}
