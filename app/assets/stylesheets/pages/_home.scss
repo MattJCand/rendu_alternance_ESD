@@ -7,5 +7,11 @@ body, html {
 body {
   display: flex;
   flex-direction: column;
+
 }
 // Specific CSS for your home-page
+
+h1, h2, h3, p{
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}

@@ -14,16 +14,17 @@
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 24px;
+  font-size: 3px;
   font-weight: bold;
 }
 
 .banner p {
   margin-top: 8px;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   opacity: .9;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  line-height:18px;
 }
 
  .banner-article {
@@ -37,26 +38,33 @@
     margin: 50px auto;
   }
 
-  .container-article{
-    text-align: center;
+  .container-article {
+    text-align: left;
     padding:25px;
     color: #292929;
-    font-size: 12px;
-    line-height: 1.6;
-    font-weight: lighter;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.003em;
+    font-weight: 400;
     font-family: 'Lora'
   }
- 
+
+  .container-article h2{
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+
   .container h1{
     color: white;
     text-align: center;
-    font-size: 24px; 
+    font-size: 30px; 
   }
 
   .container h2{
     color: white;
     text-align: center;
-    font-size: 18px; 
+    font-size: 24px; 
   }
 
    .container h3{
@@ -81,8 +89,8 @@
     margin: 0;
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 400;
   }
 
   .container h2{
@@ -101,10 +109,27 @@
     font-family: 'Lora'
   }
 
+  .container-article h2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .container-article p {
+    margin-top: 8px;
+    line-height: 32px !important;
+    letter-spacing: -0.003em;
+    font-size: 21px;
+    color: rgba(41, 41, 41, 1);
+    opacity: .9;
+    line-height:18px;
+    word-break: break-word;
+}
    .banner-article {
     background-size: cover;
     color: white;
     padding: 250px 0;
   }
+
 
 }
