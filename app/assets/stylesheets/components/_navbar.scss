@@ -1,5 +1,13 @@
 .navbar-lewagon {
   justify-content: space-between;
+  background-color: transparent;
+  transition: 0.2s background-color ease;
+  color: white;
+}
+
+.navbar-lewagon-white {
+  background-color: white;
+  color: #22252a;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -12,4 +20,8 @@
 
 main > .container{
 	padding-top: 60px;
+}
+
+.navbar-white{
+	color: unset !important 
 }

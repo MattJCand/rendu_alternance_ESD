@@ -1,11 +1,10 @@
 .banner {
-  display: flex;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/smart/creativemedia-image.canalplus.pro/content/0001/10/e9cad4faf6c3487ef0ba0006c1aa191dff724ebe.jpeg);
   background-size: cover;
-  align-items: center;
-  justify-content: center;
-  background-position: center;
-  // padding: 150px 0;
-  height: 100%;
+  height: 100vh;
+  color: #eee;
+  text-align: center;
+  padding-top: 40vh;
 }
 
 .banner h1 {
@@ -17,9 +16,10 @@
 }
 
 .banner p {
+  margin-top: 8px;
   font-size: 20px;
   color: white;
-  opacity: .7;
+  opacity: .9;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
