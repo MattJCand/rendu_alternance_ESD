@@ -1,3 +1,6 @@
+@media screen and (max-width: 900px){
+
+
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/smart/creativemedia-image.canalplus.pro/content/0001/10/e9cad4faf6c3487ef0ba0006c1aa191dff724ebe.jpeg);
   background-size: cover;
@@ -11,7 +14,7 @@
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -23,29 +26,85 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.banner-article {
-  background-size: cover;
-  color: white;
-  padding: 250px 0;
+ .banner-article {
+    background-size: cover;
+    color: white;
+    padding: 150px 0;
+  }
+
+  .banner-article > container{
+    width: 700px;
+    margin: 50px auto;
+  }
+
+  .container-article{
+    text-align: center;
+    padding:25px;
+    color: #292929;
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora'
+  }
+ 
+  .container h1{
+    color: white;
+    text-align: center;
+    font-size: 24px; 
+  }
+
+  .container h2{
+    color: white;
+    text-align: center;
+    font-size: 18px; 
+  }
+
+   .container h3{
+    font-size: 18px; 
+  }
+
 }
 
-.banner-article > container{
-  width: 700px;
-  margin: 50px auto;
-}
+@media screen and (min-width: 901px){
 
-.container h2{
-  color: white;
-  text-align: center;
-  font-size: 40px; 
-}
 
-.container-article{
-  width: 700px;
-  margin: 50px auto;
-  color: #292929;
-  font-size: 18px;
-  line-height: 1.6;
-  font-weight: lighter;
-  font-family: 'Lora'
+  .banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://thumb.canalplus.pro/http/unsafe/%7BresolutionXY%7D/smart/creativemedia-image.canalplus.pro/content/0001/10/e9cad4faf6c3487ef0ba0006c1aa191dff724ebe.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: #eee;
+    text-align: center;
+    padding-top: 40vh;
+  }
+
+  .banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .container h2{
+    color: white;
+    text-align: center;
+    font-size: 32px; 
+  }
+
+  .container-article{
+    width: 700px;
+    margin: 50px auto;
+    color: #292929;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora'
+  }
+
+   .banner-article {
+    background-size: cover;
+    color: white;
+    padding: 250px 0;
+  }
+
 }
