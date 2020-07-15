@@ -11,4 +11,12 @@ const initUpdateNavbarOnScroll = () => {
   }
 }
 
+const changeToggle = () => {
+  $(function() {
+    $('#ChangeToggle').click(function() {
+      $('#navbar-hamburger').toggleClass('hidden');
+      $('#navbar-close').toggleClass('hidden');  
+    });
+  });
+}
 export { initUpdateNavbarOnScroll };
