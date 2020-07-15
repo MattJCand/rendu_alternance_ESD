@@ -1,0 +1,28 @@
+
+.line-citation{
+	border-left: 2px solid #000;
+	padding-left: 1.8rem;
+}
+
+
+@media screen and (max-width: 900px){
+
+	.titre_part{
+		font-weight: bold !important;
+		font-size: 22px !important;
+		color: #292929 !important; 
+		line-height: 40px !important;
+	}
+}
+
+
+
+@media screen and (min-width: 900px){
+
+	.titre_part{
+		font-weight: bold !important;
+		font-size: 32px !important;
+		color: #292929 !important;
+		line-height: 50px !important;
+	}
+}

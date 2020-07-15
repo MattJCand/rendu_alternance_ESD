@@ -10,7 +10,13 @@ body {
 }
 // Specific CSS for your home-page
 
-h3, p{	
+p{	
 	font-family: 'Lora', serif;	
 	font-weight: 400;	
 } 
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
