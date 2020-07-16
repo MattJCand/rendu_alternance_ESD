@@ -34,6 +34,11 @@ main > .container{
   z-index: 1000
 }
 
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
+
+
 @media (max-width: 991.98px) {
   .navbar .navbar-collapse {
     background: rgba(236, 54, 85, 1);
