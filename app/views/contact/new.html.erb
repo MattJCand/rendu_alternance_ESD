@@ -1,3 +1,4 @@
+<div style="display: block;margin-top: 500px;">
 <%= form_for @contact do |f| %>
     <% if flash[:error].present? %>
         <p> flash[:error]</p>
@@ -20,3 +21,5 @@
 
     <%= f.submit 'Send Message', class: "button" %>
  <% end %>
+
+</div>
