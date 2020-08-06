@@ -43,11 +43,38 @@
 	<p>L’outil auteur est utilisé par les équipes animation en interne, mais également en externe chez les éditeurs (ex.: Disney +, TF1, M6 …). Ces derniers connaissent moins bien l’outil et doivent avoir accès à un environnement leur permettant de faire des actions simples. L’OA est également utilisé par l’équipe VOD Pilotage qui l’utilise pour paramétrer les différents chaînes et accès, mais également pour aider à la correction de bug que l’on retrouve en Front c’est à dire visible sur la plate-forme MyCanal.
 	</p>
 	<Img class="displayed" src="https://upload.wikimedia.org/wikipedia/fr/8/81/Mycanal.png" alt="Logo my canal">
-	<footer class="blockquote-footer text-center" style="margin-top: 10px;">Logo <cite title="Source Title"> Mycanal</cite></footer>
+	<footer class="blockquote-footer text-center" style="margin-top: 10px;">Logo <cite title="Source Title"> Mycanal</cite>
+	</footer>
 	<p>En tant que Product Owner, j’ai participé à l’ensemble des cérémonies agiles. Ainsi, chaque matin commençait par le Daily StandUp Meeting (DSM) qui avait pour but de dire à l’ensemble de l’équipe en moins de 15 min leurs tâches de la veille, leurs tâches du jour et connaître leur difficulté. Mais nous avions également des réunions en ligne avec l’équipe technique en charge de l’OA qui ne faisait pas partie de l’entreprise. 
 	Lors de ces réunions, nous faisions le Grooming afin d’estimer les tickets par rapport à leur difficulté, le temps de développement et permettre de faire une Priorisation. 
 	</p>
 	<p>J’ai été en lien direct avec l’équipe Métier qui a pu nous remonter des bugs, mais également des besoins précis à implémenter. Pour cela, nous avons mis en place une Roadmap qui était découpée par version. Chaque version comprenait un ensemble de tickets (Issue) que l’on écrivait sous forme de Users Stories sur Jira. 
 	</p>
+	<p>Les Users stories étaient destinés aux développeurs. Elles comprenaient des informations comme le Contexte, la solution, la validation, la requête Api (Via Postman) dans certains cas et des wireframes pour illustrer la demande.
+	</p>
+	<Img class="displayed" src="https://res.cloudinary.com/dmnigpnke/image/upload/v1596742891/Page_Search_Brodcast_results_i7zyaj.png" alt="Wireframe OA">
+	<footer class="blockquote-footer text-center" style="margin-top: 10px;">Exemple Wireframe <cite title="Source Title"> OA</cite>
+	</footer>
+	<p>Lorsque le développement d’un ticket était validé, je pouvais faire des tests que l’on nomme « recettage » sur le serveur de l’équipe qui était uniquement dédié à faire des tests avant la demande de livraison d’un package. Lorsque l’ensemble des tickets d’une version sont validés, l’équipe de développement nous faire parvenir un package qui contiendra l’ensemble des mises à jour faites sur cette version. Cette version était destinée à  mettre à jour le serveur de production, mais pour éviter des problèmes graves lors de la MEP (mise en production), nous devions suivre un cheminement bien précis.
+	</p>
+	<Img class="displayed" src="https://www.jenkins.io/images/logo-title-opengraph.png" alt="Logo Jenkins">
+	<footer class="blockquote-footer text-center" style="margin-top: 10px;">Jenkins <cite title="Source Title"> Outil de déploiement</cite>
+	</footer>
+	<p>
+		Pour cela, les Devops ont mis au point différents parcours via Jenkins qui est un logiciel d’intégration continue. La première étape consistait à mettre le package sur un serveur de recette afin d’effectuer deux actions : <ul></ul>
+
+	<li>La première était de constater que le package fonctionnait correctement et qu’il n’avait pas apporté des erreurs sur le serveur. 
+	</li>
+	<li>La seconde était de recetter les tickets de cette version et faire un test de non-régression. </li>
+	</p>
+	<p>Les tests de non régression furent les tests les plus importants à effectuer avant et après une MEP. Ils étaient sous forme de check-list et permettaient de vérifier le bon fonctionnement des fonctions vitales de l’OA. Lorsque la validation était faite, nous devions créer une version de l’OA existante avec la mise à jour du package et procéder à ce que l’on nomme un Switch.
+	</p>
+	<p>
+	Se Switch peut être considéré comme un miroir permettant de basculer de l’ancienne version à la nouvelle tout en laissant la possibilité de revenir à l’ancienne au moindre problème. 
+	</p>
+	<p>Dans le cas où il n’y avait pas de soucis avec la nouvelle version dans les 48 h, je devais supprimer la nouvelle version. Et enfin, je devais mettre à jour le Wiki qui contient les « tutoriels » permettant de comprendre et d’utiliser l’OA.
+	</p>
+	<h3 class="titre_part">4. Les missions annexes au sein de Vod Pilotage</h3>
+
 
 </div>
