@@ -1,11 +1,6 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet');
 
 // Define fonts for body and headers
-$body-font: "CanalDemiRomainG7";
-$headers-font: "CanalDemiRomainG7";
-
-@font-face {
-   font-family: 'CanalDemiRomainG7';
-   src: font-url(('/path-to/CanalDemiRomainG7.otf') format("opentype"));
-}
+$body-font: "Inter";
+$headers-font: "Inter";
