@@ -31,10 +31,12 @@ import 'bootstrap';
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { initOpenNav } from '../components/navbar';
 import { changeColorToggle } from '../components/navbar';
+import { scrollSection } from '../components/navbar';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
    initUpdateNavbarOnScroll();
    changeColorToggle();
+   scrollSection();
 });
