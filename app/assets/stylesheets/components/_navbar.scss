@@ -1,6 +1,7 @@
 @font-face {
    font-family: 'CanalDemiRomainG7';
-   src: url('/path-to/CanalDemiRomainG7.otf')
+   src: url(asset-path('/fonts/CanalDemiRomainG7.otf')) format("truetype");
+  }
 }
 
 .navbar-lewagon {
