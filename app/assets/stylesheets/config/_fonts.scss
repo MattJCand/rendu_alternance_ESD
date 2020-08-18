@@ -6,6 +6,11 @@ $body-font: "CanalDemiRomainG7";
 $headers-font: "CanalDemiRomainG7";
 
 @font-face {
+<<<<<<< HEAD
   font-family: "CanalDemiRomainG7";
   src: url(asset-path('CanalDemiRomainG7.otf')) format("opentype");
+=======
+   font-family: 'CanalDemiRomainG7';
+   src: font-url(('/path-to/CanalDemiRomainG7.otf') format("opentype"));
+>>>>>>> a1300a60df705def0754c36ac483aac786ba9bfd
 }
